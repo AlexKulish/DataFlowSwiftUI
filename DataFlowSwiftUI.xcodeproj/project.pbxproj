@@ -13,6 +13,7 @@
 		5929C1A527C6367200A732F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5929C1A427C6367200A732F0 /* Preview Assets.xcassets */; };
 		5929C1AC27C636CD00A732F0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1AB27C636CD00A732F0 /* UserManager.swift */; };
 		5929C1AE27C651B300A732F0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1AD27C651B300A732F0 /* DataManager.swift */; };
+		5929C1B027C654D500A732F0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1AF27C654D500A732F0 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5929C1A427C6367200A732F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5929C1AB27C636CD00A732F0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		5929C1AD27C651B300A732F0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5929C1AF27C654D500A732F0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		5929C19C27C6366C00A732F0 /* DataFlowSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5929C1AF27C654D500A732F0 /* ButtonView.swift */,
 				5929C1AD27C651B300A732F0 /* DataManager.swift */,
 				5929C1AB27C636CD00A732F0 /* UserManager.swift */,
 				5929C19D27C6366C00A732F0 /* DataFlowSwiftUIApp.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				5929C1AC27C636CD00A732F0 /* UserManager.swift in Sources */,
 				5929C1AE27C651B300A732F0 /* DataManager.swift in Sources */,
+				5929C1B027C654D500A732F0 /* ButtonView.swift in Sources */,
 				5929C1A027C6366C00A732F0 /* ContentView.swift in Sources */,
 				5929C19E27C6366C00A732F0 /* DataFlowSwiftUIApp.swift in Sources */,
 			);
