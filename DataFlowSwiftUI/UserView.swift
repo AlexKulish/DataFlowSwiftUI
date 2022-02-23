@@ -26,10 +26,12 @@ struct UserView: View {
             Spacer()
             
             VStack(spacing: 350) {
-                ButtonView(backgroundColor: .blue, title: "Start") {
+                ButtonView(backgroundColor: .blue,
+                           title: timer.buttonTitle) {
                     timer.startTimer()
                 }
-                ButtonView(backgroundColor: .red, title: "Log Out") {
+                ButtonView(backgroundColor: .red,
+                           title: "Log Out") {
                     DataManager.shared.deleteUser(userManager: userManager)
                 }
             }

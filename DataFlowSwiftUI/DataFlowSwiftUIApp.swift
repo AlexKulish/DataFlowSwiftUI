@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct DataFlowSwiftUIApp: App {
+    
+    @StateObject private var userManager = UserManager(user: DataManager.shared.loadUser())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView()
+                .environmentObject(userManager)
         }
     }
 }

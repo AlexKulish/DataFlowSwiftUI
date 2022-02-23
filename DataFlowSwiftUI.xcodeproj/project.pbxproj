@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5929C19E27C6366C00A732F0 /* DataFlowSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C19D27C6366C00A732F0 /* DataFlowSwiftUIApp.swift */; };
-		5929C1A027C6366C00A732F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C19F27C6366C00A732F0 /* ContentView.swift */; };
 		5929C1A227C6367200A732F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5929C1A127C6367200A732F0 /* Assets.xcassets */; };
 		5929C1A527C6367200A732F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5929C1A427C6367200A732F0 /* Preview Assets.xcassets */; };
 		5929C1AC27C636CD00A732F0 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1AB27C636CD00A732F0 /* UserManager.swift */; };
@@ -18,12 +17,12 @@
 		5929C1B427C6645F00A732F0 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1B327C6645F00A732F0 /* RegisterView.swift */; };
 		5929C1B627C6655A00A732F0 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1B527C6655A00A732F0 /* TextFieldView.swift */; };
 		5929C1B827C66CE200A732F0 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1B727C66CE200A732F0 /* UserView.swift */; };
+		5929C1BA27C670B700A732F0 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1B927C670B700A732F0 /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5929C19A27C6366C00A732F0 /* DataFlowSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataFlowSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5929C19D27C6366C00A732F0 /* DataFlowSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlowSwiftUIApp.swift; sourceTree = "<group>"; };
-		5929C19F27C6366C00A732F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5929C1A127C6367200A732F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5929C1A427C6367200A732F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5929C1AB27C636CD00A732F0 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
@@ -33,6 +32,7 @@
 		5929C1B327C6645F00A732F0 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		5929C1B527C6655A00A732F0 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		5929C1B727C66CE200A732F0 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		5929C1B927C670B700A732F0 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,8 @@
 		5929C19C27C6366C00A732F0 /* DataFlowSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				5929C19D27C6366C00A732F0 /* DataFlowSwiftUIApp.swift */,
+				5929C1B927C670B700A732F0 /* StarterView.swift */,
 				5929C1B727C66CE200A732F0 /* UserView.swift */,
 				5929C1B327C6645F00A732F0 /* RegisterView.swift */,
 				5929C1B527C6655A00A732F0 /* TextFieldView.swift */,
@@ -72,8 +74,6 @@
 				5929C1AF27C654D500A732F0 /* ButtonView.swift */,
 				5929C1AD27C651B300A732F0 /* DataManager.swift */,
 				5929C1AB27C636CD00A732F0 /* UserManager.swift */,
-				5929C19D27C6366C00A732F0 /* DataFlowSwiftUIApp.swift */,
-				5929C19F27C6366C00A732F0 /* ContentView.swift */,
 				5929C1A127C6367200A732F0 /* Assets.xcassets */,
 				5929C1A327C6367200A732F0 /* Preview Content */,
 			);
@@ -163,8 +163,8 @@
 				5929C1B627C6655A00A732F0 /* TextFieldView.swift in Sources */,
 				5929C1B027C654D500A732F0 /* ButtonView.swift in Sources */,
 				5929C1B427C6645F00A732F0 /* RegisterView.swift in Sources */,
+				5929C1BA27C670B700A732F0 /* StarterView.swift in Sources */,
 				5929C1B227C6587400A732F0 /* TimeCounter.swift in Sources */,
-				5929C1A027C6366C00A732F0 /* ContentView.swift in Sources */,
 				5929C1B827C66CE200A732F0 /* UserView.swift in Sources */,
 				5929C19E27C6366C00A732F0 /* DataFlowSwiftUIApp.swift in Sources */,
 			);
