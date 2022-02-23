@@ -17,6 +17,7 @@
 		5929C1B227C6587400A732F0 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1B127C6587400A732F0 /* TimeCounter.swift */; };
 		5929C1B427C6645F00A732F0 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1B327C6645F00A732F0 /* RegisterView.swift */; };
 		5929C1B627C6655A00A732F0 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1B527C6655A00A732F0 /* TextFieldView.swift */; };
+		5929C1B827C66CE200A732F0 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5929C1B727C66CE200A732F0 /* UserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		5929C1B127C6587400A732F0 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		5929C1B327C6645F00A732F0 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		5929C1B527C6655A00A732F0 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		5929C1B727C66CE200A732F0 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 		5929C19C27C6366C00A732F0 /* DataFlowSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				5929C1B527C6655A00A732F0 /* TextFieldView.swift */,
+				5929C1B727C66CE200A732F0 /* UserView.swift */,
 				5929C1B327C6645F00A732F0 /* RegisterView.swift */,
+				5929C1B527C6655A00A732F0 /* TextFieldView.swift */,
 				5929C1B127C6587400A732F0 /* TimeCounter.swift */,
 				5929C1AF27C654D500A732F0 /* ButtonView.swift */,
 				5929C1AD27C651B300A732F0 /* DataManager.swift */,
@@ -162,6 +165,7 @@
 				5929C1B427C6645F00A732F0 /* RegisterView.swift in Sources */,
 				5929C1B227C6587400A732F0 /* TimeCounter.swift in Sources */,
 				5929C1A027C6366C00A732F0 /* ContentView.swift in Sources */,
+				5929C1B827C66CE200A732F0 /* UserView.swift in Sources */,
 				5929C19E27C6366C00A732F0 /* DataFlowSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
