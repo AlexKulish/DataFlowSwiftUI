@@ -24,7 +24,7 @@ class UserManager: ObservableObject {
     
 }
 
-class User {
+class User: Codable {
     var name = ""
     var isRegister = false
 }
